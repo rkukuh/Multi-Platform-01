@@ -12,10 +12,55 @@ struct MainView: View {
     
     var body: some View {
         NavigationView() {
-            SandwichRow(sandwiches: store.sandwiches)
+            List {
+                ForEach(store.sandwiches) { sandwich in
+                    SandwichCell(sandwich: sandwich)
+                }
+                .onMove(perform: moveSandwiches)
+                .onDelete(perform: deleteSandwiches)
+                
+                HStack {
+                    Spacer()
+                    Text("\(store.sandwiches.count) Sandwiches")
+                        .foregroundColor(.secondary)
+                    Spacer()
+                }
+            }
+            .navigationTitle("Sandwiches")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    #if os(iOS)
+                        EditButton()
+                    #endif
+                }
+                
+                ToolbarItem(placement: .primaryAction) {
+                    Button("Add", action: makeSandwich)
+                }
+            }
             
             Text("Select a sandwich")
                 .font(.largeTitle)
+        }
+    }
+    
+    func makeSandwich() {
+        withAnimation {
+            store.sandwiches.append(
+                Sandwich(name: "Patty melt", ingredientCount: 5, isSpicy: true)
+            )
+        }
+    }
+    
+    func deleteSandwiches(offsets: IndexSet) {
+        withAnimation {
+            store.sandwiches.remove(atOffsets: offsets)
+        }
+    }
+    
+    func moveSandwiches(from: IndexSet, to: Int) {
+        withAnimation {
+            store.sandwiches.move(fromOffsets: from, toOffset: to)
         }
     }
 }
