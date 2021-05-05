@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainView: View {
-    var sandwiches: [Sandwich] = []
+    let sandwiches: [Sandwich]
     
     var body: some View {
         NavigationView() {

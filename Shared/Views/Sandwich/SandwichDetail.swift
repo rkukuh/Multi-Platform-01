@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SandwichDetail: View {
-    var sandwich: Sandwich
+    let sandwich: Sandwich
     
     @State private var zoomed = false
     

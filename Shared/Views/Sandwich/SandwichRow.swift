@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SandwichRow: View {
-    var sandwiches: [Sandwich]
+    let sandwiches: [Sandwich]
     
     var body: some View {
         List {

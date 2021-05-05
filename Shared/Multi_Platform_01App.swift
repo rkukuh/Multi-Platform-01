@@ -12,7 +12,7 @@ import SwiftUI
 struct Multi_Platform_01App: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            MainView(sandwiches: sandwichData)
         }
     }
 }

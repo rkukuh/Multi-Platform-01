@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SandwichCell: View {
-    var sandwich: Sandwich
+    let sandwich: Sandwich
     
     var body: some View {
         NavigationLink(destination: SandwichDetail(sandwich: sandwich)) {
