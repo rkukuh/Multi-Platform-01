@@ -14,7 +14,7 @@ struct SandwichDetail: View {
     
     var body: some View {
         VStack {
-            Spacer()
+            Spacer(minLength: 0)
             
             Image(sandwich.imageName)
                 .resizable()
@@ -25,7 +25,7 @@ struct SandwichDetail: View {
                     }
                 }
             
-            Spacer()
+            Spacer(minLength: 0)
             
             if sandwich.isSpicy && !zoomed {
                 HStack {
