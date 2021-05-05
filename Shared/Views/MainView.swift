@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct MainView: View {
-    let sandwiches: [Sandwich]
+    @ObservedObject var store: SandwichStore
     
     var body: some View {
         NavigationView() {
-            SandwichRow(sandwiches: sandwiches)
+            SandwichRow(sandwiches: store.sandwiches)
             
             Text("Select a sandwich")
                 .font(.largeTitle)
@@ -22,6 +22,6 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView(sandwiches: sandwichData)
+        MainView(store: sandwichStore)
     }
 }
