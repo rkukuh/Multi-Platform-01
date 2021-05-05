@@ -13,6 +13,9 @@ struct MainView: View {
     var body: some View {
         NavigationView() {
             SandwichRow(sandwiches: sandwiches)
+            
+            Text("Select a sandwich")
+                .font(.largeTitle)
         }
     }
 }
