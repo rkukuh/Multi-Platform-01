@@ -3,6 +3,7 @@
 //  Shared
 //
 //  Created by R. Kukuh on 04/05/21.
+//  WWDC20: Introduction to SwiftUI
 //
 
 import SwiftUI
@@ -11,7 +12,7 @@ import SwiftUI
 struct Multi_Platform_01App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
