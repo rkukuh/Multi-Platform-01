@@ -11,7 +11,7 @@ struct MainView: View {
     var sandwiches: [Sandwich] = []
     
     var body: some View {
-        NavigationView {
+        NavigationView() {
             SandwichRow(sandwiches: sandwiches)
         }
     }
