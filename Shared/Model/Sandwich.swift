@@ -15,11 +15,5 @@ struct Sandwich: Identifiable {
     var isSpicy: Bool
     
     var imageName: String { return name }
-    var thumbnailName: String { return name + "Thumb" }
+    var thumbnailName: String { return name + " Thumb" }
 }
-
-let SandwichData = [
-    Sandwich(name: "Club", ingredientCount: 4, isSpicy: false),
-    Sandwich(name: "Pastrami on rye", ingredientCount: 4, isSpicy: true),
-    Sandwich(name: "French dip", ingredientCount: 3, isSpicy: false)
-]

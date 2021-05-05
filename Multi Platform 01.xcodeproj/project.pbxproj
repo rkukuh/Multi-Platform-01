@@ -15,6 +15,7 @@
 		4A2A2C5226418D3C00A07E45 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3D26418D3B00A07E45 /* MainView.swift */; };
 		4A2A2C5326418D3C00A07E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3E26418D3C00A07E45 /* Assets.xcassets */; };
 		4A2A2C5426418D3C00A07E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3E26418D3C00A07E45 /* Assets.xcassets */; };
+		4A55216826426EDE00DEA3C7 /* SandwichData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55216726426EDE00DEA3C7 /* SandwichData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4A2A2C4B26418D3C00A07E45 /* Multi Platform 01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Platform 01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2A2C4D26418D3C00A07E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2A2C4E26418D3C00A07E45 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4A55216726426EDE00DEA3C7 /* SandwichData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				4A2A2C3C26418D3B00A07E45 /* Multi_Platform_01App.swift */,
 				4A1B895526419CBE00E07021 /* Model */,
 				4A1B895926419CDC00E07021 /* Views */,
+				4A55216626426ECF00DEA3C7 /* Data */,
 				4A2A2C3E26418D3C00A07E45 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -108,6 +111,14 @@
 				4A2A2C4E26418D3C00A07E45 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		4A55216626426ECF00DEA3C7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4A55216726426EDE00DEA3C7 /* SandwichData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A55216826426EDE00DEA3C7 /* SandwichData.swift in Sources */,
 				4A2A2C5126418D3C00A07E45 /* MainView.swift in Sources */,
 				4A2A2C4F26418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */,
 				4A1B895726419CD500E07021 /* Sandwich.swift in Sources */,
