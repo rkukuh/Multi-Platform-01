@@ -15,7 +15,13 @@
 		4A2A2C5226418D3C00A07E45 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3D26418D3B00A07E45 /* MainView.swift */; };
 		4A2A2C5326418D3C00A07E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3E26418D3C00A07E45 /* Assets.xcassets */; };
 		4A2A2C5426418D3C00A07E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3E26418D3C00A07E45 /* Assets.xcassets */; };
-		4A55216826426EDE00DEA3C7 /* SandwichData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55216726426EDE00DEA3C7 /* SandwichData.swift */; };
+		4A55216826426EDE00DEA3C7 /* sandwichData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55216726426EDE00DEA3C7 /* sandwichData.swift */; };
+		4A55216C26427D6400DEA3C7 /* SandwichCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55216B26427D6400DEA3C7 /* SandwichCell.swift */; };
+		4A55216D26427D6400DEA3C7 /* SandwichCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55216B26427D6400DEA3C7 /* SandwichCell.swift */; };
+		4A55216F26427F7A00DEA3C7 /* SandwichRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55216E26427F7A00DEA3C7 /* SandwichRow.swift */; };
+		4A55217026427F7A00DEA3C7 /* SandwichRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55216E26427F7A00DEA3C7 /* SandwichRow.swift */; };
+		4A552173264281E500DEA3C7 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A552172264281E500DEA3C7 /* SandwichDetail.swift */; };
+		4A552174264281E500DEA3C7 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A552172264281E500DEA3C7 /* SandwichDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +34,10 @@
 		4A2A2C4B26418D3C00A07E45 /* Multi Platform 01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Platform 01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2A2C4D26418D3C00A07E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2A2C4E26418D3C00A07E45 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		4A55216726426EDE00DEA3C7 /* SandwichData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichData.swift; sourceTree = "<group>"; };
+		4A55216726426EDE00DEA3C7 /* sandwichData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandwichData.swift; sourceTree = "<group>"; };
+		4A55216B26427D6400DEA3C7 /* SandwichCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichCell.swift; sourceTree = "<group>"; };
+		4A55216E26427F7A00DEA3C7 /* SandwichRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichRow.swift; sourceTree = "<group>"; };
+		4A552172264281E500DEA3C7 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				4A2A2C3D26418D3B00A07E45 /* MainView.swift */,
+				4A55217126427FAF00DEA3C7 /* Sandwich */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,9 +126,19 @@
 		4A55216626426ECF00DEA3C7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				4A55216726426EDE00DEA3C7 /* SandwichData.swift */,
+				4A55216726426EDE00DEA3C7 /* sandwichData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		4A55217126427FAF00DEA3C7 /* Sandwich */ = {
+			isa = PBXGroup;
+			children = (
+				4A55216E26427F7A00DEA3C7 /* SandwichRow.swift */,
+				4A55216B26427D6400DEA3C7 /* SandwichCell.swift */,
+				4A552172264281E500DEA3C7 /* SandwichDetail.swift */,
+			);
+			path = Sandwich;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,10 +238,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A55216826426EDE00DEA3C7 /* SandwichData.swift in Sources */,
+				4A55216C26427D6400DEA3C7 /* SandwichCell.swift in Sources */,
+				4A55216826426EDE00DEA3C7 /* sandwichData.swift in Sources */,
 				4A2A2C5126418D3C00A07E45 /* MainView.swift in Sources */,
 				4A2A2C4F26418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */,
+				4A552173264281E500DEA3C7 /* SandwichDetail.swift in Sources */,
 				4A1B895726419CD500E07021 /* Sandwich.swift in Sources */,
+				4A55216F26427F7A00DEA3C7 /* SandwichRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,8 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A55217026427F7A00DEA3C7 /* SandwichRow.swift in Sources */,
+				4A552174264281E500DEA3C7 /* SandwichDetail.swift in Sources */,
 				4A2A2C5226418D3C00A07E45 /* MainView.swift in Sources */,
 				4A2A2C5026418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */,
+				4A55216D26427D6400DEA3C7 /* SandwichCell.swift in Sources */,
 				4A1B895826419CD500E07021 /* Sandwich.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

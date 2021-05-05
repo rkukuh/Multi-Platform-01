@@ -12,30 +12,13 @@ struct MainView: View {
     
     var body: some View {
         NavigationView {
-            List(sandwiches) { sandwich in
-                NavigationLink(destination: Text(sandwich.name)) {
-                    Image(sandwich.thumbnailName)
-                        .resizable()
-                        .cornerRadius(8)
-                        .frame(width: 75.0, height: 75.0)
-                    
-                    VStack(alignment: .leading) {
-                        Text(sandwich.name)
-                            .font(.headline)
-                        
-                        Text("\(sandwich.ingredientCount) ingredients")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }
-                }
-            }
-            .navigationTitle("Sandwich")
+            SandwichRow(sandwiches: sandwiches)
         }
     }
 }
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView(sandwiches: SandwichData)
+        MainView(sandwiches: sandwichData)
     }
 }
