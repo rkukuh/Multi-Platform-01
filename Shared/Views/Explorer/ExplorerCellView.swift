@@ -16,13 +16,14 @@ struct ExplorerCellView: View {
                 .resizable()
                 .cornerRadius(8)
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 75, height: 75, alignment: .center)
+                .frame(width: 70, height: 70, alignment: .center)
             
             VStack(alignment: .leading) {
                 Text(explorer.name)
                     .font(.headline)
                 
                 Text(explorer.shift)
+                    .font(.subheadline)
                     .foregroundColor(.secondary)
             }
         }
