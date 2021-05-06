@@ -26,8 +26,10 @@ struct ExplorerMainView_Previews: PreviewProvider {
         Group {
             ExplorerMainView()
             
+            #if os(iOS)
             ExplorerMainView()
                 .previewDevice("iPad Pro (12.9-inch) (5th generation)")
+            #endif
         }
     }
 }
