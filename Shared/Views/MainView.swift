@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExplorerMainView: View {
+struct MainView: View {
     var body: some View {
         NavigationView() {
             List(explorers, id: \.self) { explorer in
@@ -21,13 +21,13 @@ struct ExplorerMainView: View {
     }
 }
 
-struct ExplorerMainView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ExplorerMainView()
+            MainView()
             
             #if os(iOS)
-            ExplorerMainView()
+            MainView()
                 .previewDevice("iPad Pro (12.9-inch) (5th generation)")
             #endif
         }
