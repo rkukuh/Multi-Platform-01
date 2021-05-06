@@ -28,11 +28,11 @@ struct MainView: View {
             }
             .navigationTitle("Sandwiches")
             .toolbar {
+                #if os(iOS)
                 ToolbarItem(placement: .navigationBarLeading) {
-                    #if os(iOS)
-                        EditButton()
-                    #endif
+                    EditButton()
                 }
+                #endif
                 
                 ToolbarItem(placement: .primaryAction) {
                     Button("Add", action: makeSandwich)
@@ -77,7 +77,7 @@ struct MainView_Previews: PreviewProvider {
             MainView(store: sandwichStore)
                 .preferredColorScheme(.light)
                 .previewDevice("iPad Pro (12.9-inch) (5th generation)")
-            
+
             MainView(store: sandwichStore)
                 .preferredColorScheme(.dark)
                 .previewDevice("iPad Pro (12.9-inch) (5th generation)")
