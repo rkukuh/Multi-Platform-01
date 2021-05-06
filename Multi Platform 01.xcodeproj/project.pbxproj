@@ -29,6 +29,12 @@
 		4AE1508626443A1B00919802 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1508326443A1A00919802 /* ModelData.swift */; };
 		4AE1508726443A1B00919802 /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1508426443A1A00919802 /* Explorer.swift */; };
 		4AE1508826443A1B00919802 /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1508426443A1A00919802 /* Explorer.swift */; };
+		4AE1509326443F5800919802 /* ExplorerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509026443F5800919802 /* ExplorerRowView.swift */; };
+		4AE1509426443F5800919802 /* ExplorerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509026443F5800919802 /* ExplorerRowView.swift */; };
+		4AE1509526443F5800919802 /* ExplorerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509126443F5800919802 /* ExplorerListView.swift */; };
+		4AE1509626443F5800919802 /* ExplorerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509126443F5800919802 /* ExplorerListView.swift */; };
+		4AE1509726443F5800919802 /* ExplorerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509226443F5800919802 /* ExplorerDetailView.swift */; };
+		4AE1509826443F5800919802 /* ExplorerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509226443F5800919802 /* ExplorerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +54,9 @@
 		4AE15080264439E600919802 /* explorerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explorerData.json; sourceTree = "<group>"; };
 		4AE1508326443A1A00919802 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		4AE1508426443A1A00919802 /* Explorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explorer.swift; sourceTree = "<group>"; };
+		4AE1509026443F5800919802 /* ExplorerRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorerRowView.swift; sourceTree = "<group>"; };
+		4AE1509126443F5800919802 /* ExplorerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorerListView.swift; sourceTree = "<group>"; };
+		4AE1509226443F5800919802 /* ExplorerDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				4A2A2C3D26418D3B00A07E45 /* MainView.swift */,
+				4AE1508F26443F4400919802 /* Explorer */,
 				4A55217126427FAF00DEA3C7 /* Sandwich */,
 			);
 			path = Views;
@@ -168,6 +178,16 @@
 				4A9FC3AE2642F04F00C61F66 /* SandwichStore.swift */,
 			);
 			name = Sandwich;
+			sourceTree = "<group>";
+		};
+		4AE1508F26443F4400919802 /* Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				4AE1509026443F5800919802 /* ExplorerRowView.swift */,
+				4AE1509126443F5800919802 /* ExplorerListView.swift */,
+				4AE1509226443F5800919802 /* ExplorerDetailView.swift */,
+			);
+			path = Explorer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +293,10 @@
 				4A55216826426EDE00DEA3C7 /* sandwichData.swift in Sources */,
 				4A2A2C5126418D3C00A07E45 /* MainView.swift in Sources */,
 				4A2A2C4F26418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */,
+				4AE1509326443F5800919802 /* ExplorerRowView.swift in Sources */,
 				4A9FC3AF2642F04F00C61F66 /* SandwichStore.swift in Sources */,
+				4AE1509726443F5800919802 /* ExplorerDetailView.swift in Sources */,
+				4AE1509526443F5800919802 /* ExplorerListView.swift in Sources */,
 				4AE1508526443A1B00919802 /* ModelData.swift in Sources */,
 				4AE1508726443A1B00919802 /* Explorer.swift in Sources */,
 				4A552173264281E500DEA3C7 /* SandwichDetail.swift in Sources */,
@@ -289,7 +312,10 @@
 				4A2A2C5226418D3C00A07E45 /* MainView.swift in Sources */,
 				4A5521752642DCD800DEA3C7 /* sandwichData.swift in Sources */,
 				4A9FC3B02642F04F00C61F66 /* SandwichStore.swift in Sources */,
+				4AE1509426443F5800919802 /* ExplorerRowView.swift in Sources */,
 				4A2A2C5026418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */,
+				4AE1509826443F5800919802 /* ExplorerDetailView.swift in Sources */,
+				4AE1509626443F5800919802 /* ExplorerListView.swift in Sources */,
 				4AE1508626443A1B00919802 /* ModelData.swift in Sources */,
 				4AE1508826443A1B00919802 /* Explorer.swift in Sources */,
 				4A55216D26427D6400DEA3C7 /* SandwichCell.swift in Sources */,
