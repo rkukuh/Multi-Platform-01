@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ExplorerMainView: View {
     var body: some View {
-        ExplorerListView()
+        NavigationView() {
+            ExplorerListView()
+        }
     }
 }
 
@@ -17,6 +19,9 @@ struct ExplorerMainView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ExplorerMainView()
+            
+            ExplorerMainView()
+                .previewDevice("iPad Pro (12.9-inch) (5th generation)")
         }
     }
 }

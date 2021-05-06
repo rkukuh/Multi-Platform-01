@@ -9,16 +9,14 @@ import SwiftUI
 
 struct ExplorerListView: View {
     var body: some View {
-        NavigationView() {
-            List(explorers, id: \.self) { explorer in
-                NavigationLink(
-                    destination: ExplorerDetailView(explorer: explorer)
-                ) {
-                    ExplorerCellView(explorer: explorer)
-                }
+        List(explorers, id: \.self) { explorer in
+            NavigationLink(
+                destination: ExplorerDetailView(explorer: explorer)
+            ) {
+                ExplorerCellView(explorer: explorer)
             }
-            .navigationTitle("Explorers")
         }
+        .navigationTitle("Explorers")
     }
 }
 
