@@ -10,11 +10,9 @@ import SwiftUI
 
 @main
 struct Multi_Platform_01App: App {
-    @StateObject private var store = SandwichStore()
-    
     var body: some Scene {
         WindowGroup {
-            SandwichMainView(store: store)
+            ExplorerMainView()
         }
     }
 }
