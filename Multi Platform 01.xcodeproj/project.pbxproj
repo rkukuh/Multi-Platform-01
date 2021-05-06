@@ -35,8 +35,8 @@
 		4AE1509626443F5800919802 /* ExplorerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509126443F5800919802 /* ExplorerListView.swift */; };
 		4AE1509726443F5800919802 /* ExplorerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509226443F5800919802 /* ExplorerDetailView.swift */; };
 		4AE1509826443F5800919802 /* ExplorerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1509226443F5800919802 /* ExplorerDetailView.swift */; };
-		4AE1509A2644424400919802 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE150992644424400919802 /* MainView.swift */; };
-		4AE1509B2644424400919802 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE150992644424400919802 /* MainView.swift */; };
+		4AE1509A2644424400919802 /* ExplorerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE150992644424400919802 /* ExplorerMainView.swift */; };
+		4AE1509B2644424400919802 /* ExplorerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE150992644424400919802 /* ExplorerMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +59,7 @@
 		4AE1509026443F5800919802 /* ExplorerCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorerCellView.swift; sourceTree = "<group>"; };
 		4AE1509126443F5800919802 /* ExplorerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorerListView.swift; sourceTree = "<group>"; };
 		4AE1509226443F5800919802 /* ExplorerDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorerDetailView.swift; sourceTree = "<group>"; };
-		4AE150992644424400919802 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4AE150992644424400919802 /* ExplorerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorerMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		4A1B895926419CDC00E07021 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4AE150992644424400919802 /* MainView.swift */,
+				4AE150992644424400919802 /* ExplorerMainView.swift */,
 				4A2A2C3D26418D3B00A07E45 /* SandwichMainView.swift */,
 				4AE1508F26443F4400919802 /* Explorer */,
 				4A55217126427FAF00DEA3C7 /* Sandwich */,
@@ -294,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A55216C26427D6400DEA3C7 /* SandwichCell.swift in Sources */,
-				4AE1509A2644424400919802 /* MainView.swift in Sources */,
+				4AE1509A2644424400919802 /* ExplorerMainView.swift in Sources */,
 				4A55216826426EDE00DEA3C7 /* sandwichData.swift in Sources */,
 				4A2A2C5126418D3C00A07E45 /* SandwichMainView.swift in Sources */,
 				4A2A2C4F26418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */,
@@ -314,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A552174264281E500DEA3C7 /* SandwichDetail.swift in Sources */,
-				4AE1509B2644424400919802 /* MainView.swift in Sources */,
+				4AE1509B2644424400919802 /* ExplorerMainView.swift in Sources */,
 				4A2A2C5226418D3C00A07E45 /* SandwichMainView.swift in Sources */,
 				4A5521752642DCD800DEA3C7 /* sandwichData.swift in Sources */,
 				4A9FC3B02642F04F00C61F66 /* SandwichStore.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ExplorerMainView.swift
 //  tvOS 01
 //
 //  Created by R. Kukuh on 29/04/21.
@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct ExplorerMainView: View {
     var body: some View {
         ExplorerListView()
     }
 }
 
-struct MainView_Previews: PreviewProvider {
+struct ExplorerMainView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            MainView()
+            ExplorerMainView()
         }
     }
 }
