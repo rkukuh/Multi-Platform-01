@@ -1,0 +1,779 @@
+[
+  {
+    "name": "Alamsyah Oktavian Santoso",
+    "photo": "Alamsyah",
+    "expertise": "Design",
+    "team": "team 2 / Udin's Adventure",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Bramantya Putra Teja",
+    "photo": "BramantyaPutra",
+    "expertise": "Design",
+    "team": "team 9 / Lai team",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Henry David Lie",
+    "photo": "HenryDavid",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4/ Money Gang",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Jonathan Andrei Wibawa",
+    "photo": "JonathanAndrei",
+    "expertise": "Tech / IT / IS",
+    "team": "team 5 / Apatite",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Natasya Dahliana Lulu",
+    "photo": "NatasyaDahliana",
+    "expertise": "Tech / IT / IS",
+    "team": "team 1 / DeeJay",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Dhienaqueen",
+    "photo": "Dhienaqueen",
+    "expertise": "Design",
+    "team": "team 2 / Udin's Adventure",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Jessica Wienadi",
+    "photo": "JessicaWienadi",
+    "expertise": "Tech / IT / IS",
+    "team": "team 5 / Apatite",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Kezia Yovita Chandra",
+    "photo": "KeziaYovita",
+    "expertise": "Tech / IT / IS",
+    "team": "team 1 / DeeJay",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Willy Yunus Islami",
+    "photo": "WillyYunus",
+    "expertise": "Tech / IT / IS",
+    "team": "team 1 / DeeJay",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Adimas Surya Perdana Putra",
+    "photo": "AdimasSurya",
+    "expertise": "Tech / IT / IS",
+    "team": "team 10 / Sarap",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Bevan Christian",
+    "photo": "BevanChristian",
+    "expertise": "Tech / IT / IS",
+    "team": "team 9 / Lai team",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Raden Roro Ayunda Yahdis Sabila",
+    "photo": "RadenRoroAyunda",
+    "expertise": "Design",
+    "team": "team 1 / DeeJay",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Ricky Gideon Iskandar Daun",
+    "photo": "RickyGideon",
+    "expertise": "Tech / IT / IS",
+    "team": "team 8 / BRANSM",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Felicia Devina Siswanto",
+    "photo": "FeliciaDevina",
+    "expertise": "Tech / IT / IS",
+    "team": "team 6 / Game",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Fransiscus Verrol Yaurentius",
+    "photo": "FransiscusVerrol",
+    "expertise": "Tech / IT / IS",
+    "team": "team 6 / Game",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Naufal Aziz Imaduddin",
+    "photo": "NaufalAziz",
+    "expertise": "Design",
+    "team": "team 8 / BRANSM",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Samuel Putra Soegiono",
+    "photo": "SamuelPutra",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 8 / BRANSM",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Shelina Linardi",
+    "photo": "ShelinaLinardi",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / Subur Gaming",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Davin Djayadi",
+    "photo": "DavinDjayadi",
+    "expertise": "Tech / IT / IS",
+    "team": "team 2 / Udin's Adventure",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Geralda Carnelian Tantra",
+    "photo": "GeraldaCarnelian",
+    "expertise": "Design",
+    "team": "team 4/ Money Gang",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Sadrakh Setyo Bekti",
+    "photo": "SadrakhSetyo",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 7 afternoon",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Vincentius Phillips Zhuputra",
+    "photo": "VincentiusPhillips",
+    "expertise": "Tech / IT / IS",
+    "team": "team 6 / Game",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Zefanya Sharon",
+    "photo": "ZefanyaSharon",
+    "expertise": "Tech / IT / IS",
+    "team": "team 10 / Sarap",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Ahmad Nur Alifullah",
+    "photo": "AhmadNur",
+    "expertise": "Tech / IT / IS",
+    "team": "team 10 / Sarap",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Alvin Hariyono",
+    "photo": "AlvinHariyono",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4/ Money Gang",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Jessica Vania",
+    "photo": "JessicaVania",
+    "expertise": "Design",
+    "team": "team 5 / Apatite",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Kevin Jonathan",
+    "photo": "KevinJonathan",
+    "expertise": "Tech / IT / IS",
+    "team": "team 7 afternoon",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Dandy Rilo Hariyono",
+    "photo": "DandyRilo",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 7 afternoon",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "David Aurelius Tandjung",
+    "photo": "DavidAurelius",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / Subur Gaming",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Muhammad Alkaff",
+    "photo": "MuhammadAlkaff",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / Subur Gaming",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Nadya Natasha",
+    "photo": "NadyaNatasha",
+    "expertise": "Design",
+    "team": "team 9 / Lai team",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Winner Tjandrawan",
+    "photo": "WinnerTjandrawan",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / Subur Gaming",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Angelica Roseanne",
+    "photo": "AngelicaRoseanne",
+    "expertise": "Tech / IT / IS",
+    "team": "team 6 / Game",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Fredrik Pridatirta",
+    "photo": "FredrikPridatirta",
+    "expertise": "Design",
+    "team": "team 1 / DeeJay",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Michael Hans Kristian Hardjo",
+    "photo": "MichaelHans",
+    "expertise": "Tech / IT / IS",
+    "team": "team 2 / Udin's Adventure",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Priscilla Vanny Amelia",
+    "photo": "PriscillaVanny",
+    "expertise": "Tech / IT / IS",
+    "team": "team 10 / Sarap",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Adam Gilbert",
+    "photo": "AdamGilbert",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 5 / Apatite",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Indi Amelia Kusuma",
+    "photo": "IndiAmelia",
+    "expertise": "Design",
+    "team": "team 7 afternoon",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Melisa Krisnawati",
+    "photo": "MelisaKrisnawati",
+    "expertise": "Tech / IT / IS",
+    "team": "team 8 / BRANSM",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Reinaldo Lewis Lordianto",
+    "photo": "ReinaldoLewis",
+    "expertise": "Tech / IT / IS",
+    "team": "team 6 / Game",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Wildan Ghiffarie Budhi",
+    "photo": "WildanGhiffarie",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4/ Money Gang",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Dimas Agung Prabowo",
+    "photo": "DimasAgung",
+    "expertise": "Tech / IT / IS",
+    "team": "team 2 / Udin's Adventure",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Risa Santoso",
+    "photo": "RisaSantoso",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 7 afternoon",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Rubby Handojo",
+    "photo": "RubbyHandojo",
+    "expertise": "Tech / IT / IS",
+    "team": "team 10 / Sarap",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Shelin Kezia Handoko",
+    "photo": "ShelinKezia",
+    "expertise": "Design",
+    "team": "team 5 / Apatite",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Yanandra Dhafa",
+    "photo": "YanandraDhafa",
+    "expertise": "Tech / IT / IS",
+    "team": "team 9 / Lai team",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Ammar",
+    "photo": "Ammar",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4/ Money Gang",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Jennifer Nathania",
+    "photo": "JenniferNathania",
+    "expertise": "Design",
+    "team": "team 9 / Lai team",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Neville Natalio Davisan",
+    "photo": "NevilleNatalio",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / Subur Gaming",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Nicklaus Fumihiro Wibowo",
+    "photo": "NicklausFumihiro",
+    "expertise": "Tech / IT / IS",
+    "team": "team 8 / BRANSM",
+    "shift": "Afternoon"
+  },
+  {
+    "name": "Ang Natasia Stephanie Setiyadi",
+    "photo": "AngNatasia",
+    "expertise": "Design",
+    "team": "team 5 / Art",
+    "shift": "Morning"
+  },
+  {
+    "name": "Dzulfikar Ali Maskur",
+    "photo": "DzulfikarAli",
+    "expertise": "Tech / IT / IS",
+    "team": "team 10 / Arindra",
+    "shift": "Morning"
+  },
+  {
+    "name": "Goldianus Solangius Mbete",
+    "photo": "GoldianusSolangius",
+    "expertise": "Design",
+    "team": "team 2 / SOBSPORT",
+    "shift": "Morning"
+  },
+  {
+    "name": "Moh Supandi",
+    "photo": "MohSupandi",
+    "expertise": "Tech / IT / IS",
+    "team": "team 7 / Food",
+    "shift": "Morning"
+  },
+  {
+    "name": "Wilfredo Alexander Sutanto",
+    "photo": "WilfredoAlexander",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / MyPet",
+    "shift": "Morning"
+  },
+  {
+    "name": "Bryan Khufa Rahmada Aula",
+    "photo": "BryanKhufa",
+    "expertise": "Tech / IT / IS",
+    "team": "team 9 / Martian",
+    "shift": "Morning"
+  },
+  {
+    "name": "Christine Chen",
+    "photo": "ChristineChen",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 7 / Food",
+    "shift": "Morning"
+  },
+  {
+    "name": "Stanislaus Sunday",
+    "photo": "StanislausSunday",
+    "expertise": "Tech / IT / IS",
+    "team": "team 5 / Art",
+    "shift": "Morning"
+  },
+  {
+    "name": "Yayang Rahmadina",
+    "photo": "YayangRahmadina",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4 / Edtech",
+    "shift": "Morning"
+  },
+  {
+    "name": "Yeremia Adicipta Santosa",
+    "photo": "YeremiaAdicipta",
+    "expertise": "Design",
+    "team": "team 6 / Mansae",
+    "shift": "Morning"
+  },
+  {
+    "name": "Evelin Candratio",
+    "photo": "EvelinCandratio",
+    "expertise": "Tech / IT / IS",
+    "team": "team 10 / Arindra",
+    "shift": "Morning"
+  },
+  {
+    "name": "Felyn Karina Bingtoyo",
+    "photo": "FelynKarina",
+    "expertise": "Design",
+    "team": "team 7 / Food",
+    "shift": "Morning"
+  },
+  {
+    "name": "Muhamad Thio Basudewo",
+    "photo": "MuhamadThio",
+    "expertise": "Tech / IT / IS",
+    "team": "team 1 / As Swift As Possible",
+    "shift": "Morning"
+  },
+  {
+    "name": "Ni Putu Mira Novita Dewi",
+    "photo": "NiPutuMira",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / MyPet",
+    "shift": "Morning"
+  },
+  {
+    "name": "Lourensius Dani Anggara Putra",
+    "photo": "LourensiusDani",
+    "expertise": "Tech / IT / IS",
+    "team": "team 9 / Martian",
+    "shift": "Morning"
+  },
+  {
+    "name": "Octavianus Bastian Adhitama",
+    "photo": "OctavianusBastian",
+    "expertise": "Tech / IT / IS",
+    "team": "team 8 / Symphony no. 8",
+    "shift": "Morning"
+  },
+  {
+    "name": "Tito Guntur Safirda",
+    "photo": "TitoGuntur",
+    "expertise": "Design",
+    "team": "team 5 / Art",
+    "shift": "Morning"
+  },
+  {
+    "name": "Yusuf Umar Hanafi",
+    "photo": "YusufUmar",
+    "expertise": "Tech / IT / IS",
+    "team": "team 1 / As Swift As Possible",
+    "shift": "Morning"
+  },
+  {
+    "name": "Alfa Centaury Hidayatullah",
+    "photo": "AlfaCentaury",
+    "expertise": "Tech / IT / IS",
+    "team": "team 2 / SOBSPORT",
+    "shift": "Morning"
+  },
+  {
+    "name": "Iqbal Maulana",
+    "photo": "IqbalMaulana",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4 / Edtech",
+    "shift": "Morning"
+  },
+  {
+    "name": "Marsha Antonia",
+    "photo": "MarshaAntonia",
+    "expertise": "Design",
+    "team": "team 6 / Mansae",
+    "shift": "Morning"
+  },
+  {
+    "name": "Steven",
+    "photo": "Steven",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / MyPet",
+    "shift": "Morning"
+  },
+  {
+    "name": "Adhitya Laksamana Bayu Adrian",
+    "photo": "AdhityaLaksamana",
+    "expertise": "Tech / IT / IS",
+    "team": "team 8 / Symphony no. 8",
+    "shift": "Morning"
+  },
+  {
+    "name": "Helen Imanuel Hermanto",
+    "photo": "HelenImanuel",
+    "expertise": "Design",
+    "team": "team 5 / Art",
+    "shift": "Morning"
+  },
+  {
+    "name": "Octgi Ristya Perdana",
+    "photo": "OctgiRistya",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4 / Edtech",
+    "shift": "Morning"
+  },
+  {
+    "name": "Refo Satya Pramudhito",
+    "photo": "RefaSatya",
+    "expertise": "Tech / IT / IS",
+    "team": "team 3 / MyPet",
+    "shift": "Morning"
+  },
+  {
+    "name": "Septia Rosalina Malik",
+    "photo": "SeptiaRosiana",
+    "expertise": "Tech / IT / IS",
+    "team": "team 6 / Mansae",
+    "shift": "Morning"
+  },
+  {
+    "name": "Aditya Agung Dwi R",
+    "photo": "AdityaAgung",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 9 / Martian",
+    "shift": "Morning"
+  },
+  {
+    "name": "Dimas Satria Bintang Prakasa",
+    "photo": "DimasSatria",
+    "expertise": "Tech / IT / IS",
+    "team": "team 10 / Arindra",
+    "shift": "Morning"
+  },
+  {
+    "name": "Novianto Hermawan",
+    "photo": "NoviantoHermawan",
+    "expertise": "Tech / IT / IS",
+    "team": "team 8 / Symphony no. 8",
+    "shift": "Morning"
+  },
+  {
+    "name": "Ronaldo Kurswell",
+    "photo": "RonaldoKurswell",
+    "expertise": "Design",
+    "team": "team 5 / Art",
+    "shift": "Morning"
+  },
+  {
+    "name": "Elbert Reyner Gunawan",
+    "photo": "ElbertReyner",
+    "expertise": "Design",
+    "team": "team 9 / Martian",
+    "shift": "Morning"
+  },
+  {
+    "name": "Felinda Gracia Lubis",
+    "photo": "FelindaGracia",
+    "expertise": "Tech / IT / IS",
+    "team": "team 8 / Symphony no. 8",
+    "shift": "Morning"
+  },
+  {
+    "name": "Galang Aji Susanto",
+    "photo": "GalangAji",
+    "expertise": "Tech / IT / IS",
+    "team": "team 7 / Food",
+    "shift": "Morning"
+  },
+  {
+    "name": "Natanael Kenan Gunawan",
+    "photo": "NatanaelKenan",
+    "expertise": "Tech / IT / IS",
+    "team": "team 2 / SOBSPORT",
+    "shift": "Morning"
+  },
+  {
+    "name": "Stephanie Hans Bunawan",
+    "photo": "StephanieHans",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 3 / MyPet",
+    "shift": "Morning"
+  },
+  {
+    "name": "Gilbert Soenjaya Gunawan",
+    "photo": "GilbertSoenjaya",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 10 / Arindra",
+    "shift": "Morning"
+  },
+  {
+    "name": "Rivera",
+    "photo": "Rivera",
+    "expertise": "Design",
+    "team": "team 6 / Mansae",
+    "shift": "Morning"
+  },
+  {
+    "name": "Suwardhana",
+    "photo": "Suwardhana",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4 / Edtech",
+    "shift": "Morning"
+  },
+  {
+    "name": "William Roland Hernando",
+    "photo": "WilliamRoland",
+    "expertise": "Tech / IT / IS",
+    "team": "team 8 / Symphony no. 8",
+    "shift": "Morning"
+  },
+  {
+    "name": "Zuhad Achmad Fachrian",
+    "photo": "ZuhadAchmad",
+    "expertise": "Tech / IT / IS",
+    "team": "team 1 / As Swift As Possible",
+    "shift": "Morning"
+  },
+  {
+    "name": "Aucky Riman Halim",
+    "photo": "AuckyRiman",
+    "expertise": "Tech / IT / IS",
+    "team": "team 1 / As Swift As Possible",
+    "shift": "Morning"
+  },
+  {
+    "name": "Laviana Halim",
+    "photo": "LavianaHalim",
+    "expertise": "Design",
+    "team": "team 7 / Food",
+    "shift": "Morning"
+  },
+  {
+    "name": "Lidwina Santosa",
+    "photo": "LidwinaSantosa",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": "team 10 / Arindra",
+    "shift": "Morning"
+  },
+  {
+    "name": "Namira Rizqi Annisa",
+    "photo": "NamiraRizqi",
+    "expertise": "Tech / IT / IS",
+    "team": "team 6 / Mansae",
+    "shift": "Morning"
+  },
+  {
+    "name": "Arles Halley Asaeli",
+    "photo": "ArlesHalley",
+    "expertise": "Tech / IT / IS",
+    "team": "team 9 / Martian",
+    "shift": "Morning"
+  },
+  {
+    "name": "Chondro Satrio Wibowo",
+    "photo": "ChondroSatrio",
+    "expertise": "Tech / IT / IS",
+    "team": "team 1 / As Swift As Possible",
+    "shift": "Morning"
+  },
+  {
+    "name": "Edward Gunawan",
+    "photo": "EdwardGunawan",
+    "expertise": "Design",
+    "team": "team 2 / SOBSPORT",
+    "shift": "Morning"
+  },
+  {
+    "name": "Marshel Aditya Prayoga",
+    "photo": "MarshelAditya",
+    "expertise": "Tech / IT / IS",
+    "team": "team 2 / SOBSPORT",
+    "shift": "Morning"
+  },
+  {
+    "name": "Muhammad Hafiz Siregar",
+    "photo": "MuhammadHafiz",
+    "expertise": "Tech / IT / IS",
+    "team": "team 4 / Edtech",
+    "shift": "Morning"
+  },
+  {
+    "name": "Ari Kurniawan",
+    "photo": "Ari",
+    "shift": "Morning,Afternoon",
+    "expertise": "Design",
+    "team": ""
+  },
+  {
+    "name": "Bayu Prasetya",
+    "photo": "Bayu",
+    "shift": "Morning,Afternoon",
+    "expertise": "Design",
+    "team": ""
+  },
+  {
+    "name": "Dickson Leonard",
+    "photo": "Dickson",
+    "shift": "Morning,Afternoon",
+    "expertise": "Tech / IT / IS",
+    "team": ""
+  },
+  {
+    "name": "Fanny Halim",
+    "photo": "Fanny",
+    "shift": "Morning,Afternoon",
+    "expertise": "Tech / IT / IS",
+    "team": ""
+  },
+  {
+    "name": "Gabriele Wijasa",
+    "photo": "Gabriele",
+    "shift": "Morning,Afternoon",
+    "expertise": "Design",
+    "team": ""
+  },
+  {
+    "name": "Januar Tanzil",
+    "photo": "Januar",
+    "shift": "Morning,Afternoon",
+    "expertise": "Tech / IT / IS",
+    "team": ""
+  },
+  {
+    "name": "Jaya Pranata",
+    "photo": "Jaya",
+    "shift": "Morning,Afternoon",
+    "expertise": "Tech / IT / IS",
+    "team": ""
+  },
+  {
+    "name": "John Alan Ketaren",
+    "photo": "Ketaren",
+    "shift": "Morning,Afternoon",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": ""
+  },
+  {
+    "name": "Rachmat Kukuh Rahadiansyah",
+    "photo": "Kukuh",
+    "shift": "Morning,Afternoon",
+    "expertise": "Tech / IT / IS",
+    "team": ""
+  },
+  {
+    "name": "Yehezkiel Cheryan Tjandra",
+    "photo": "Ryan",
+    "shift": "Morning,Afternoon",
+    "expertise": "Domain Expert (Keahlian Khusus)",
+    "team": ""
+  },
+  {
+    "name": "Yulibar Husni",
+    "photo": "Yulibar",
+    "shift": "Morning,Afternoon",
+    "expertise": "Tech / IT / IS",
+    "team": ""
+  }
+]
