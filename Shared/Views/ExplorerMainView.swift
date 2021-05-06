@@ -10,7 +10,10 @@ import SwiftUI
 struct ExplorerMainView: View {
     var body: some View {
         NavigationView() {
-            ExplorerListView()
+            List(explorers, id: \.self) { explorer in
+                ExplorerCellView(explorer: explorer)
+            }
+            .navigationTitle("Explorers")
         }
     }
 }

@@ -11,7 +11,7 @@ struct ExplorerCellView: View {
     var explorer: Explorer
     
     var body: some View {
-        HStack {
+        NavigationLink(destination: ExplorerDetailView(explorer: explorer)) {
             explorer.profilePicture
                 .resizable()
                 .cornerRadius(8)

@@ -31,5 +31,6 @@ struct SandwichCell: View {
 struct SandwichCell_Previews: PreviewProvider {
     static var previews: some View {
         SandwichCell(sandwich: sandwichData[0])
+            .previewLayout(.fixed(width: 500, height: 100))
     }
 }
