@@ -14,7 +14,7 @@ struct ExplorerListView: View {
                 NavigationLink(
                     destination: ExplorerDetailView(explorer: explorer)
                 ) {
-                    ExplorerRowView(explorer: explorer)
+                    ExplorerCellView(explorer: explorer)
                 }
             }
             .navigationTitle("Explorers")

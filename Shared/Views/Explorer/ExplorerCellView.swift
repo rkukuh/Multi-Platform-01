@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExplorerRowView: View {
+struct ExplorerCellView: View {
     var explorer: Explorer
     
     var body: some View {
@@ -24,12 +24,12 @@ struct ExplorerRowView: View {
     }
 }
 
-struct ExplorerRowView_Previews: PreviewProvider {
+struct ExplorerCellView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ExplorerRowView(explorer: explorers[0])
-            ExplorerRowView(explorer: explorers[1])
+            ExplorerCellView(explorer: explorers[0])
+            ExplorerCellView(explorer: explorers[1])
         }
-        .previewLayout(.fixed(width: 1000, height: 120))
+        .previewLayout(.fixed(width: 500, height: 120))
     }
 }
