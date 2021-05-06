@@ -69,17 +69,8 @@ struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             MainView(store: sandwichStore)
-                .preferredColorScheme(.light)
             
             MainView(store: sandwichStore)
-                .preferredColorScheme(.dark)
-            
-            MainView(store: sandwichStore)
-                .preferredColorScheme(.light)
-                .previewDevice("iPad Pro (12.9-inch) (5th generation)")
-
-            MainView(store: sandwichStore)
-                .preferredColorScheme(.dark)
                 .previewDevice("iPad Pro (12.9-inch) (5th generation)")
         }
     }
