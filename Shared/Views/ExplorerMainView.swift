@@ -14,6 +14,9 @@ struct ExplorerMainView: View {
                 ExplorerCellView(explorer: explorer)
             }
             .navigationTitle("Explorers")
+            
+            Text("Select an Explorers")
+                .font(.largeTitle)
         }
     }
 }
