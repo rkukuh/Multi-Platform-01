@@ -11,8 +11,8 @@
 		4A1B895826419CD500E07021 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B895626419CD500E07021 /* Sandwich.swift */; };
 		4A2A2C4F26418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3C26418D3B00A07E45 /* Multi_Platform_01App.swift */; };
 		4A2A2C5026418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3C26418D3B00A07E45 /* Multi_Platform_01App.swift */; };
-		4A2A2C5126418D3C00A07E45 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3D26418D3B00A07E45 /* MainView.swift */; };
-		4A2A2C5226418D3C00A07E45 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3D26418D3B00A07E45 /* MainView.swift */; };
+		4A2A2C5126418D3C00A07E45 /* SandwichMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3D26418D3B00A07E45 /* SandwichMainView.swift */; };
+		4A2A2C5226418D3C00A07E45 /* SandwichMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3D26418D3B00A07E45 /* SandwichMainView.swift */; };
 		4A2A2C5326418D3C00A07E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3E26418D3C00A07E45 /* Assets.xcassets */; };
 		4A2A2C5426418D3C00A07E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A2C3E26418D3C00A07E45 /* Assets.xcassets */; };
 		4A55216826426EDE00DEA3C7 /* sandwichData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A55216726426EDE00DEA3C7 /* sandwichData.swift */; };
@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		4A1B895626419CD500E07021 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
 		4A2A2C3C26418D3B00A07E45 /* Multi_Platform_01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_Platform_01App.swift; sourceTree = "<group>"; };
-		4A2A2C3D26418D3B00A07E45 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4A2A2C3D26418D3B00A07E45 /* SandwichMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichMainView.swift; sourceTree = "<group>"; };
 		4A2A2C3E26418D3C00A07E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A2A2C4326418D3C00A07E45 /* Multi Platform 01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Platform 01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2A2C4626418D3C00A07E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		4A1B895926419CDC00E07021 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4A2A2C3D26418D3B00A07E45 /* MainView.swift */,
+				4A2A2C3D26418D3B00A07E45 /* SandwichMainView.swift */,
 				4AE1508F26443F4400919802 /* Explorer */,
 				4A55217126427FAF00DEA3C7 /* Sandwich */,
 			);
@@ -291,7 +291,7 @@
 			files = (
 				4A55216C26427D6400DEA3C7 /* SandwichCell.swift in Sources */,
 				4A55216826426EDE00DEA3C7 /* sandwichData.swift in Sources */,
-				4A2A2C5126418D3C00A07E45 /* MainView.swift in Sources */,
+				4A2A2C5126418D3C00A07E45 /* SandwichMainView.swift in Sources */,
 				4A2A2C4F26418D3C00A07E45 /* Multi_Platform_01App.swift in Sources */,
 				4AE1509326443F5800919802 /* ExplorerRowView.swift in Sources */,
 				4A9FC3AF2642F04F00C61F66 /* SandwichStore.swift in Sources */,
@@ -309,7 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A552174264281E500DEA3C7 /* SandwichDetail.swift in Sources */,
-				4A2A2C5226418D3C00A07E45 /* MainView.swift in Sources */,
+				4A2A2C5226418D3C00A07E45 /* SandwichMainView.swift in Sources */,
 				4A5521752642DCD800DEA3C7 /* sandwichData.swift in Sources */,
 				4A9FC3B02642F04F00C61F66 /* SandwichStore.swift in Sources */,
 				4AE1509426443F5800919802 /* ExplorerRowView.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct SandwichMainView: View {
     @ObservedObject var store: SandwichStore
     
     var body: some View {
@@ -65,12 +65,12 @@ struct MainView: View {
     }
 }
 
-struct MainView_Previews: PreviewProvider {
+struct SandwichMainView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            MainView(store: sandwichStore)
+            SandwichMainView(store: sandwichStore)
             
-            MainView(store: sandwichStore)
+            SandwichMainView(store: sandwichStore)
                 .previewDevice("iPad Pro (12.9-inch) (5th generation)")
         }
     }
