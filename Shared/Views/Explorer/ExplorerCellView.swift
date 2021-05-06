@@ -14,12 +14,17 @@ struct ExplorerCellView: View {
         HStack {
             explorer.profilePicture
                 .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 100, height: 100, alignment: .center)
+                .cornerRadius(8)
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 75, height: 75, alignment: .center)
             
-            Text(explorer.name)
-            
-            Spacer()
+            VStack(alignment: .leading) {
+                Text(explorer.name)
+                    .font(.headline)
+                
+                Text(explorer.shift)
+                    .foregroundColor(.secondary)
+            }
         }
     }
 }
@@ -30,6 +35,6 @@ struct ExplorerCellView_Previews: PreviewProvider {
             ExplorerCellView(explorer: explorers[0])
             ExplorerCellView(explorer: explorers[1])
         }
-        .previewLayout(.fixed(width: 500, height: 120))
+        .previewLayout(.fixed(width: 500, height: 100))
     }
 }
