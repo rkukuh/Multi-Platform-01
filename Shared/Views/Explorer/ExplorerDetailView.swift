@@ -10,11 +10,21 @@ import SwiftUI
 struct ExplorerDetailView: View {
     var explorer: Explorer
     
+    @State private var zoomed = false
+    
     var body: some View {
-        explorer.profilePicture
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .navigationTitle(explorer.name)
+        VStack {
+            explorer.profilePicture
+                .resizable()
+                .aspectRatio(contentMode: zoomed ? .fill : .fit)
+                .onTapGesture {
+                    withAnimation {
+                        zoomed.toggle()
+                    }
+                }
+        }
+        .edgesIgnoringSafeArea(.bottom)
+        .navigationTitle(explorer.name)
     }
 }
 
